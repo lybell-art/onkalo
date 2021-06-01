@@ -10,5 +10,5 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Bump -bm 10.00000 textures\\monolith1-Normal.png
-map_Kd textures\\monolith1-texture.png
+map_Bump -bm 10.00000 textures\monolith1-Normal.png
+map_Kd textures\monolith1-texture.png
