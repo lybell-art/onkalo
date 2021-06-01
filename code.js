@@ -582,9 +582,10 @@ function checkingMarker()
 	if(monoliths.status != MONOLITH_PENDING) return;
 	raycaster.setFromCamera( new THREE.Vector2( 0,0 ), mainCamera );
 	const intersects = raycaster.intersectObjects( monoliths.activatedMonolith );
-	if(intersects.length > 0 && monoliths.no < 2)
+	if(intersects.length > 0)
 	{
-		monoliths.initFall();
+		if(monoliths.no == 2) location.href='dead.html';
+		else monoliths.initFall();
 	}
 }
 
