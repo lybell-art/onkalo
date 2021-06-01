@@ -29,7 +29,7 @@ const keyStates = {};
 const crossHead = document.getElementById( 'crossHead' );
 let isMousePressed = false;
 let player;
-let phase=3.0;
+let phase=0.0;
 const clock = new THREE.Clock();
 const isActive=()=>document.pointerLockElement === document.body;
 
