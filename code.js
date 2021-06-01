@@ -1,10 +1,10 @@
-import * as THREE from 'libs/three.module.js';
-import { MTLLoader } from 'libs/plugins/MTLLoader.js';
-import { OBJLoader } from 'libs/plugins/OBJLoader.js';
-import { EnvShader, FleshShader } from 'js/shaders.js';
-import { PointerLockControls } from 'libs/plugins/PointerLockControls.js';
+import * as THREE from './libs/three.module.js';
+import { MTLLoader } from './libs/plugins/MTLLoader.js';
+import { OBJLoader } from './libs/plugins/OBJLoader.js';
+import { EnvShader, FleshShader } from './js/shaders.js';
+import { PointerLockControls } from './libs/plugins/PointerLockControls.js';
 
-import Stats from 'libs/plugins/stats.module.js';
+import Stats from './libs/plugins/stats.module.js';
 
 const stats = new Stats();
 document.body.appendChild( stats.dom );
